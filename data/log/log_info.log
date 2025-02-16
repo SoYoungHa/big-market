@@ -1,17 +1,25 @@
-25-02-15.01:00:06.790 [main            ] INFO  Application            - Starting Application using Java 1.8.0_351 on helloworld with PID 32472 (C:\E\Codepro\xfg\big-market-neverthelessa\big-market-neverthelessa-app\target\classes started by 24565 in C:\E\Codepro\xfg\big-market-neverthelessa)
-25-02-15.01:00:06.794 [main            ] INFO  Application            - The following 1 profile is active: "dev"
-25-02-15.01:00:07.877 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
-25-02-15.01:00:07.885 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
-25-02-15.01:00:07.885 [main            ] INFO  StandardService        - Starting service [Tomcat]
-25-02-15.01:00:07.886 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-25-02-15.01:00:08.031 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-25-02-15.01:00:08.032 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1181 ms
-25-02-15.01:00:08.706 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
-25-02-15.01:00:08.724 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
-25-02-15.01:00:08.733 [main            ] INFO  Application            - Started Application in 2.591 seconds (JVM running for 3.589)
-25-02-15.01:00:24.736 [main            ] INFO  Application            - Starting Application using Java 1.8.0_351 on helloworld with PID 31748 (C:\E\Codepro\xfg\big-market-neverthelessa\big-market-neverthelessa-app\target\classes started by 24565 in C:\E\Codepro\xfg\big-market-neverthelessa)
-25-02-15.01:00:24.740 [main            ] INFO  Application            - The following 1 profile is active: "dev"
-25-02-15.01:00:26.092 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
-25-02-15.01:00:26.295 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1505 ms
-25-02-15.01:00:27.202 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
-25-02-15.01:00:27.210 [main            ] INFO  Application            - Started Application in 3.114 seconds (JVM running for 4.96)
+25-02-16.18:18:18.812 [main            ] INFO  Application            - Starting Application using Java 1.8.0_351 on helloworld with PID 15812 (C:\E\Codepro\xfg\big-market-neverthelessa\big-market-neverthelessa-app\target\classes started by 24565 in C:\E\Codepro\xfg\big-market-neverthelessa)
+25-02-16.18:18:18.816 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-02-16.18:18:19.721 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-02-16.18:18:19.723 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-02-16.18:18:19.761 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+25-02-16.18:18:20.333 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+25-02-16.18:18:20.342 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+25-02-16.18:18:20.342 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-02-16.18:18:20.342 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-02-16.18:18:20.522 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-02-16.18:18:20.523 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1650 ms
+25-02-16.18:18:21.011 [main            ] INFO  Version                - Redisson 3.23.4
+25-02-16.18:18:21.603 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 117.72.126.167/117.72.126.167:16379
+25-02-16.18:18:21.687 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 117.72.126.167/117.72.126.167:16379
+25-02-16.18:18:22.541 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-02-16.18:18:22.571 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+25-02-16.18:18:22.583 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+25-02-16.18:18:22.596 [main            ] INFO  Application            - Started Application in 4.412 seconds (JVM running for 5.575)
+25-02-16.18:18:23.430 [RMI TCP Connection(2)-172.27.96.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-02-16.18:18:23.430 [RMI TCP Connection(2)-172.27.96.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-02-16.18:18:23.433 [RMI TCP Connection(2)-172.27.96.1] INFO  DispatcherServlet      - Completed initialization in 2 ms
+25-02-16.18:18:23.433 [RMI TCP Connection(3)-172.27.96.1] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-02-16.18:18:24.171 [RMI TCP Connection(3)-172.27.96.1] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-02-16.18:18:26.438 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-02-16.18:18:26.550 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
