@@ -20,6 +20,7 @@ import javax.annotation.Resource;
  */
 @Slf4j
 @Component
+//用了自定义的注解 LogicStrategy
 @LogicStrategy(logicMode = DefaultLogicFactory.LogicModel.RULE_BLACKLIST)
 public class RuleBackListLogicFilter implements ILogicFilter<RuleActionEntity.RaffleBeforeEntity> {
 

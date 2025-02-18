@@ -33,6 +33,7 @@ public class StrategyEntity {
     // 步骤：1. 获取规则模型，2. 获取规则模型中的权重规则，3. 返回权重规则
     public String getRuleWeight() {
         String[] ruleModels = this.ruleModels();
+        if (null == ruleModels) return null;
         for (String ruleModel : ruleModels) {
             if ("rule_weight".equals(ruleModel)) return ruleModel;
         }

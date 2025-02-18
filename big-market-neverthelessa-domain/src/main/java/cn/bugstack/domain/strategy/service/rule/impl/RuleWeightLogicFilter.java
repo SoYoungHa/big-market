@@ -65,7 +65,7 @@ public class RuleWeightLogicFilter implements ILogicFilter<RuleActionEntity.Raff
                 .filter(key -> userScore >= key)
                 .findFirst()
                 .orElse(null);
-
+        // 4. 获取到符合的规则，并返回
         if (null != nextValue) {
             return RuleActionEntity.<RuleActionEntity.RaffleBeforeEntity>builder()
                     .data(RuleActionEntity.RaffleBeforeEntity.builder()
