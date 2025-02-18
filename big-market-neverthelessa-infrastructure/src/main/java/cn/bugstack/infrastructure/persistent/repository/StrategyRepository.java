@@ -31,6 +31,8 @@ public class StrategyRepository implements IStrategyRepository {
     @Resource
     private IStrategyRuleDao strategyRuleDao;
 
+
+
     @Override
     // 带缓存策略的奖品查询
     public List<StrategyAwardEntity> queryStrategyAwardList(Long strategyId) {
@@ -103,6 +105,15 @@ public class StrategyRepository implements IStrategyRepository {
                 .ruleValue(strategyRuleRes.getRuleValue())
                 .ruleDesc(strategyRuleRes.getRuleDesc())
                 .build();
+    }
+
+    @Override
+    public String queryStrategyRuleValue(Long strategyId, Integer awardId, String ruleModel) {
+        StrategyRule strategyRule = new StrategyRule();
+        strategyRule.setStrategyId(strategyId);
+        strategyRule.setAwardId(awardId);
+        strategyRule.setRuleModel(ruleModel);
+        return strategyRuleDao.queryStrategyRuleValue(strategyRule);
     }
 
     @Override

@@ -7,16 +7,20 @@ import lombok.NoArgsConstructor;
 
 /**
  * @author 24565
- * @date 2025/2/17 22:16
- * @description AwardEntity
+ * @date 2025/2/18 12:20
+ * @description 抽奖因子实体
  */
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class AwardEntity {
+public class RaffleFactorEntity {
+
     /** 用户ID */
     private String userId;
-    /** 奖品ID */
-    private Integer awardId;
+    /** 策略ID */
+    private Long strategyId;
+
+
+
 }

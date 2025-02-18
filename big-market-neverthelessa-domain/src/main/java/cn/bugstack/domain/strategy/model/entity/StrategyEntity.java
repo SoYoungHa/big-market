@@ -29,6 +29,8 @@ public class StrategyEntity {
         return ruleModels.split(Constants.SPLIT);
     }
 
+    // 获取权重规则
+    // 步骤：1. 获取规则模型，2. 获取规则模型中的权重规则，3. 返回权重规则
     public String getRuleWeight() {
         String[] ruleModels = this.ruleModels();
         for (String ruleModel : ruleModels) {

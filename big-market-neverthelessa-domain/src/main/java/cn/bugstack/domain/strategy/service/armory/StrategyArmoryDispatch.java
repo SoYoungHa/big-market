@@ -20,22 +20,28 @@ import java.util.*;
 public class StrategyArmoryDispatch implements IStrategyArmory,IStrategyDispatch {
     @Resource
     private IStrategyRepository repository;
+
+
     @Override
     public boolean assembleLotteryStrategy(Long strategyId) {
 
         // 1. 查询策略配置
         List<StrategyAwardEntity> strategyAwardEntities = repository.queryStrategyAwardList(strategyId);
+        // 把一个策略组装的步骤分成了两个，一个是对策略的组装，一个是对策略的权重组装   
         assembleLotteryStrategy(String.valueOf(strategyId), strategyAwardEntities);
 
         // 2. 权重策略配置 - 适用于 rule_weight 权重规则配置
         StrategyEntity strategyEntity = repository.queryStrategyEntityByStrategyId(strategyId);
+        //这是自己写的方法  得到 ruleWeight = "rule_weight"
         String ruleWeight = strategyEntity.getRuleWeight();
         if (null == ruleWeight) return true;
-
+        // 从strategy_rule里面查找权重对应的值 rule_value
         StrategyRuleEntity strategyRuleEntity = repository.queryStrategyRule(strategyId, ruleWeight);
         if (null == strategyRuleEntity) {
             throw new AppException(ResponseCode.STRATEGY_RULE_WEIGHT_IS_NULL.getCode(), ResponseCode.STRATEGY_RULE_WEIGHT_IS_NULL.getInfo());
         }
+        //自己写的一个函数，把weight且分开来
+        //数据案例；4000:102,103,104,105 5000:102,103,104,105,106,107 6000:102,103,104,105,106,107,108,109
         Map<String, List<Integer>> ruleWeightValueMap = strategyRuleEntity.getRuleWeightValues();
         Set<String> keys = ruleWeightValueMap.keySet();
         for (String key : keys) {
