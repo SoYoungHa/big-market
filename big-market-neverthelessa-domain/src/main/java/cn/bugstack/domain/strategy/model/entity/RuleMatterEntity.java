@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * @author 24565
  * @date 2025/2/18 12:20
- * @description 规则物料
+ * @description 规则物料  后面用不到了
  */
 @Data
 public class RuleMatterEntity {

@@ -5,7 +5,7 @@ import lombok.*;
 
 /**
  * @author
- * @description 规则动作实体
+ * @description 规则动作实体  后续用不到了
  * @create 2024-01-06 09:47
  */
 @Data
