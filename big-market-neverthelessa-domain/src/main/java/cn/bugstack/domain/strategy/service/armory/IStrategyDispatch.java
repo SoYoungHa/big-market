@@ -12,4 +12,7 @@ public interface IStrategyDispatch {
     Integer getRandomAwardId(Long strategyId, String ruleWeightValue);
 
     Integer getRandomAwardId(String key);
+
+    // 库存扣减
+    Boolean subtractionAwardStock(Long strategyId, Integer awardId);
 }
