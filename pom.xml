@@ -13,6 +13,7 @@
         <module>big-market-neverthelessa-trigger</module>
         <module>big-market-neverthelessa-infrastructure</module>
         <module>big-market-neverthelessa-types</module>
+        <module>big-market-neverthelessa-api</module>
     </modules>
 
     <repositories>

@@ -1,43 +1,222 @@
-25-02-16.18:18:18.812 [main            ] INFO  Application            - Starting Application using Java 1.8.0_351 on helloworld with PID 15812 (C:\E\Codepro\xfg\big-market-neverthelessa\big-market-neverthelessa-app\target\classes started by 24565 in C:\E\Codepro\xfg\big-market-neverthelessa)
-25-02-16.18:18:18.816 [main            ] INFO  Application            - The following 1 profile is active: "dev"
-25-02-16.18:18:19.721 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-25-02-16.18:18:19.723 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-25-02-16.18:18:19.761 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
-25-02-16.18:18:20.333 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
-25-02-16.18:18:20.342 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
-25-02-16.18:18:20.342 [main            ] INFO  StandardService        - Starting service [Tomcat]
-25-02-16.18:18:20.342 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-25-02-16.18:18:20.522 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-25-02-16.18:18:20.523 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1650 ms
-25-02-16.18:18:21.011 [main            ] INFO  Version                - Redisson 3.23.4
-25-02-16.18:18:21.603 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 117.72.126.167/117.72.126.167:16379
-25-02-16.18:18:21.687 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 117.72.126.167/117.72.126.167:16379
-25-02-16.18:18:22.541 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-25-02-16.18:18:22.571 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
-25-02-16.18:18:22.583 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
-25-02-16.18:18:22.596 [main            ] INFO  Application            - Started Application in 4.412 seconds (JVM running for 5.575)
-25-02-16.18:18:23.430 [RMI TCP Connection(2)-172.27.96.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
-25-02-16.18:18:23.430 [RMI TCP Connection(2)-172.27.96.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
-25-02-16.18:18:23.433 [RMI TCP Connection(2)-172.27.96.1] INFO  DispatcherServlet      - Completed initialization in 2 ms
-25-02-16.18:18:23.433 [RMI TCP Connection(3)-172.27.96.1] INFO  HikariDataSource       - HikariPool-1 - Starting...
-25-02-16.18:18:24.171 [RMI TCP Connection(3)-172.27.96.1] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-25-02-16.18:18:26.438 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-25-02-16.18:18:26.550 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-25-02-16.21:44:34.321 [main            ] INFO  Application            - Starting Application using Java 1.8.0_351 on helloworld with PID 12808 (C:\E\Codepro\xfg\big-market-neverthelessa\big-market-neverthelessa-app\target\classes started by 24565 in C:\E\Codepro\xfg\big-market-neverthelessa)
-25-02-16.21:44:34.325 [main            ] INFO  Application            - The following 1 profile is active: "dev"
-25-02-16.21:44:35.996 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-25-02-16.21:44:36.022 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-25-02-16.21:44:36.127 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 0 Redis repository interfaces.
-25-02-16.21:44:38.012 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
-25-02-16.21:44:38.024 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
-25-02-16.21:44:38.025 [main            ] INFO  StandardService        - Starting service [Tomcat]
-25-02-16.21:44:38.025 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
-25-02-16.21:44:38.162 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
-25-02-16.21:44:38.163 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3766 ms
-25-02-16.21:44:38.864 [main            ] INFO  Version                - Redisson 3.23.4
-25-02-16.21:44:39.685 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 117.72.126.167/117.72.126.167:16379
-25-02-16.21:44:39.797 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 117.72.126.167/117.72.126.167:16379
-25-02-16.21:44:41.128 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-25-02-16.21:44:41.162 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
-25-02-16.21:44:41.186 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
-25-02-16.21:44:41.202 [main            ] INFO  Application            - Started Application in 7.839 seconds (JVM running for 8.707)
+25-03-12.00:02:58.966 [main            ] INFO  Application            - Starting Application using Java 1.8.0_351 on helloworld with PID 23936 (C:\E\Codepro\xfg\big-market-neverthelessa\big-market-neverthelessa-app\target\classes started by 24565 in C:\E\Codepro\xfg\big-market-neverthelessa)
+25-03-12.00:02:58.970 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-12.00:03:00.325 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-12.00:03:00.328 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-12.00:03:00.392 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 0 Redis repository interfaces.
+25-03-12.00:03:01.144 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+25-03-12.00:03:01.166 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+25-03-12.00:03:01.166 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-12.00:03:01.167 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-12.00:03:01.363 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-12.00:03:01.363 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2306 ms
+25-03-12.00:03:02.052 [main            ] INFO  Version                - Redisson 3.23.4
+25-03-12.00:03:02.917 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 117.72.126.167/117.72.126.167:16379
+25-03-12.00:03:03.136 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 117.72.126.167/117.72.126.167:16379
+25-03-12.00:03:03.540 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [cn.bugstack.trigger.http.IRaffleController]: public cn.bugstack.types.model.Response cn.bugstack.trigger.http.IRaffleController.strategyArmory(java.lang.Long)
+25-03-12.00:03:03.588 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-12.00:03:03.601 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-12.00:03:03.623 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [cn.bugstack.trigger.http.IRaffleController]: public cn.bugstack.types.model.Response cn.bugstack.trigger.http.IRaffleController.strategyArmory(java.lang.Long)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at cn.bugstack.Application.main(Application.java:14)
+Caused by: java.lang.IllegalStateException: Invalid mapping on handler class [cn.bugstack.trigger.http.IRaffleController]: public cn.bugstack.types.model.Response cn.bugstack.trigger.http.IRaffleController.strategyArmory(java.lang.Long)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:288)
+	at org.springframework.core.MethodIntrospector.lambda$selectMethods$0(MethodIntrospector.java:74)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:367)
+	at org.springframework.core.MethodIntrospector.selectMethods(MethodIntrospector.java:72)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:281)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'app.config.api-version' in value "/api/${app.config.api-version}/raffle/"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.config.EmbeddedValueResolver.resolveStringValue(EmbeddedValueResolver.java:54)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.resolveEmbeddedValuesInPatterns(RequestMappingHandlerMapping.java:393)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.createRequestMappingInfo(RequestMappingHandlerMapping.java:369)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.createRequestMappingInfo(RequestMappingHandlerMapping.java:324)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getMappingForMethod(RequestMappingHandlerMapping.java:286)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getMappingForMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:284)
+	... 26 common frames omitted
+25-03-12.00:10:21.157 [main            ] INFO  Application            - Starting Application using Java 1.8.0_351 on helloworld with PID 30676 (C:\E\Codepro\xfg\big-market-neverthelessa\big-market-neverthelessa-app\target\classes started by 24565 in C:\E\Codepro\xfg\big-market-neverthelessa)
+25-03-12.00:10:21.160 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-12.00:10:22.202 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-12.00:10:22.204 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-12.00:10:22.263 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 0 Redis repository interfaces.
+25-03-12.00:10:22.848 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+25-03-12.00:10:22.865 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+25-03-12.00:10:22.865 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-12.00:10:22.866 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-12.00:10:23.026 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-12.00:10:23.026 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1821 ms
+25-03-12.00:10:23.570 [main            ] INFO  Version                - Redisson 3.23.4
+25-03-12.00:10:24.346 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 117.72.126.167/117.72.126.167:16379
+25-03-12.00:10:24.558 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 117.72.126.167/117.72.126.167:16379
+25-03-12.00:10:24.960 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [cn.bugstack.trigger.http.RaffleController]: public cn.bugstack.types.model.Response cn.bugstack.trigger.http.RaffleController.randomRaffle(cn.bugstack.trigger.api.dto.RaffleRequestDTO)
+25-03-12.00:10:25.006 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-12.00:10:25.019 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-12.00:10:25.041 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [cn.bugstack.trigger.http.RaffleController]: public cn.bugstack.types.model.Response cn.bugstack.trigger.http.RaffleController.randomRaffle(cn.bugstack.trigger.api.dto.RaffleRequestDTO)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at cn.bugstack.Application.main(Application.java:14)
+Caused by: java.lang.IllegalStateException: Invalid mapping on handler class [cn.bugstack.trigger.http.RaffleController]: public cn.bugstack.types.model.Response cn.bugstack.trigger.http.RaffleController.randomRaffle(cn.bugstack.trigger.api.dto.RaffleRequestDTO)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:288)
+	at org.springframework.core.MethodIntrospector.lambda$selectMethods$0(MethodIntrospector.java:74)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:367)
+	at org.springframework.core.MethodIntrospector.selectMethods(MethodIntrospector.java:72)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:281)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'app.config.api-version' in value "/api/${app.config.api-version}/raffle/"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.config.EmbeddedValueResolver.resolveStringValue(EmbeddedValueResolver.java:54)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.resolveEmbeddedValuesInPatterns(RequestMappingHandlerMapping.java:393)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.createRequestMappingInfo(RequestMappingHandlerMapping.java:369)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.createRequestMappingInfo(RequestMappingHandlerMapping.java:324)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getMappingForMethod(RequestMappingHandlerMapping.java:286)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getMappingForMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:284)
+	... 26 common frames omitted
+25-03-12.00:15:52.108 [main            ] INFO  Application            - Starting Application using Java 1.8.0_351 on helloworld with PID 29176 (C:\E\Codepro\xfg\big-market-neverthelessa\big-market-neverthelessa-app\target\classes started by 24565 in C:\E\Codepro\xfg\big-market-neverthelessa)
+25-03-12.00:15:52.111 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-12.00:15:53.166 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-12.00:15:53.168 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-12.00:15:53.225 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 0 Redis repository interfaces.
+25-03-12.00:15:53.845 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+25-03-12.00:15:53.856 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+25-03-12.00:15:53.857 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-12.00:15:53.857 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-12.00:15:54.029 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-12.00:15:54.029 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1856 ms
+25-03-12.00:15:54.595 [main            ] INFO  Version                - Redisson 3.23.4
+25-03-12.00:15:55.508 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 117.72.126.167/117.72.126.167:16379
+25-03-12.00:15:55.727 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 117.72.126.167/117.72.126.167:16379
+25-03-12.00:15:56.169 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [cn.bugstack.trigger.http.RaffleController]: public cn.bugstack.types.model.Response cn.bugstack.trigger.http.RaffleController.queryRaffleAwardList(cn.bugstack.trigger.api.dto.RaffleAwardListRequestDTO)
+25-03-12.00:15:56.221 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-12.00:15:56.240 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-12.00:15:56.265 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [cn.bugstack.trigger.http.RaffleController]: public cn.bugstack.types.model.Response cn.bugstack.trigger.http.RaffleController.queryRaffleAwardList(cn.bugstack.trigger.api.dto.RaffleAwardListRequestDTO)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at cn.bugstack.Application.main(Application.java:14)
+Caused by: java.lang.IllegalStateException: Invalid mapping on handler class [cn.bugstack.trigger.http.RaffleController]: public cn.bugstack.types.model.Response cn.bugstack.trigger.http.RaffleController.queryRaffleAwardList(cn.bugstack.trigger.api.dto.RaffleAwardListRequestDTO)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:288)
+	at org.springframework.core.MethodIntrospector.lambda$selectMethods$0(MethodIntrospector.java:74)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:367)
+	at org.springframework.core.MethodIntrospector.selectMethods(MethodIntrospector.java:72)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:281)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'app.config.api-version' in value "/api/${app.config.api-version}/raffle/"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.config.EmbeddedValueResolver.resolveStringValue(EmbeddedValueResolver.java:54)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.resolveEmbeddedValuesInPatterns(RequestMappingHandlerMapping.java:393)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.createRequestMappingInfo(RequestMappingHandlerMapping.java:369)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.createRequestMappingInfo(RequestMappingHandlerMapping.java:324)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getMappingForMethod(RequestMappingHandlerMapping.java:286)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getMappingForMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:284)
+	... 26 common frames omitted
+25-03-12.00:19:22.887 [main            ] INFO  Application            - Starting Application using Java 1.8.0_351 on helloworld with PID 14244 (C:\E\Codepro\xfg\big-market-neverthelessa\big-market-neverthelessa-app\target\classes started by 24565 in C:\E\Codepro\xfg\big-market-neverthelessa)
+25-03-12.00:19:22.890 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-12.00:19:23.873 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-03-12.00:19:23.875 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-03-12.00:19:23.930 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 0 Redis repository interfaces.
+25-03-12.00:19:24.529 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+25-03-12.00:19:24.541 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+25-03-12.00:19:24.551 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-12.00:19:24.551 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-12.00:19:24.726 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-12.00:19:24.727 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1785 ms
+25-03-12.00:19:25.338 [main            ] INFO  Version                - Redisson 3.23.4
+25-03-12.00:19:26.210 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 117.72.126.167/117.72.126.167:16379
+25-03-12.00:19:26.439 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 117.72.126.167/117.72.126.167:16379
+25-03-12.00:19:27.310 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-03-12.00:19:27.344 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+25-03-12.00:19:27.359 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+25-03-12.00:19:27.375 [main            ] INFO  Application            - Started Application in 5.124 seconds (JVM running for 6.424)
+25-03-12.00:19:28.973 [RMI TCP Connection(3)-172.21.16.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-12.00:19:28.973 [RMI TCP Connection(3)-172.21.16.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-12.00:19:28.976 [RMI TCP Connection(2)-172.21.16.1] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-03-12.00:19:28.976 [RMI TCP Connection(3)-172.21.16.1] INFO  DispatcherServlet      - Completed initialization in 3 ms
+25-03-12.00:19:30.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-03-12.00:19:30.322 [RMI TCP Connection(2)-172.21.16.1] INFO  HikariDataSource       - HikariPool-1 - Start completed.
